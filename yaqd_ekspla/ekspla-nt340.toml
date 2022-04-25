@@ -1,0 +1,20 @@
+protocol = "ekspla-nt340"
+doc = ""
+traits = ["uses-uart","uses-serial", "has-position", "is-daemon"]
+
+[links]
+source = "https://gitlab.com/yaq/yaqd-ekspla"
+bugtracker = "https://gitlab.com/yaq/yaqd-ekspla/-/issues"
+
+[installation]
+PyPI = "https://pypi.org/project/yaqd-ekspla"
+
+[config]
+
+[config.serial_name]
+doc = "The name of the device in serial protocol"
+type = "string"
+
+[state]
+
+[messages]
