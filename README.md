@@ -13,7 +13,9 @@ This package contains the following daemon(s):
 
 - https://yaq.fyi/daemons/ekspla-nt340
 
+## ekspla-nt340 notes
+* Use a straight-through serial cable to connect the computer and OPO.
 
-# ekspla-nt340 notes
-* Use a straight-through serial cable to connect the computer and OPO. 
+## maintainers
 
+[Dan Kohler](https://github.com/ddkohler)

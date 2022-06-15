@@ -3,8 +3,8 @@ doc = ""
 traits = ["uses-uart","uses-serial", "has-position", "is-daemon"]
 
 [links]
-source = "https://gitlab.com/yaq/yaqd-ekspla"
-bugtracker = "https://gitlab.com/yaq/yaqd-ekspla/-/issues"
+source = "https://github.com/yaq-project/yaqd-ekspla"
+bugtracker = "https://github.com/yaq-project/yaqd-ekspla/issues"
 
 [installation]
 PyPI = "https://pypi.org/project/yaqd-ekspla"
