@@ -24,7 +24,7 @@ class EksplaNt340(UsesUart, HasPosition, IsDaemon):
         self._incoming = []
         self._loop.create_task(self._areadlines())
 
-    def _set_position(self, position:float) -> None:
+    def _set_position(self, position: float) -> None:
         position = round(position, 1)
         self._state["destination"] = position
         self._write(f"W0/S{position}")
@@ -56,7 +56,7 @@ class EksplaNt340(UsesUart, HasPosition, IsDaemon):
                 self._busy = False
             await asyncio.sleep(0.1)
 
-    def direct_serial_write(self, cmd:bytes) -> str:
+    def direct_serial_write(self, cmd: bytes) -> str:
         self._ser.write(cmd)
         return self._ser.read_until("]").decode()
 
@@ -66,7 +66,7 @@ class EksplaNt340(UsesUart, HasPosition, IsDaemon):
     def close(self):
         self._ser.close()
 
-    def _write(self, info:str):
+    def _write(self, info: str):
         message = msg.format(to=self._alias, info=info, sender="PC").encode()
         self.logger.debug(f"writing: {message!r}")
         self._ser.write(message)
