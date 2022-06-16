@@ -14,8 +14,8 @@ This package contains the following daemon(s):
 - https://yaq.fyi/daemons/ekspla-nt340
 
 ## ekspla-nt340 notes
-Tunable Nd:YAG Pulsed Laser System. 
- * Use a _straight-through cable_ (pin 1 to pin 1, pin 2 to pin 2, etc.) to connect the computer and OPO. 
+Tunable Nd:YAG Pulsed Laser System.
+ * Use a _straight-through cable_ (pin 1 to pin 1, pin 2 to pin 2, etc.) to connect the computer and OPO.
 
 ## maintainers
 
