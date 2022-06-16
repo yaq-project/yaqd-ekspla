@@ -12,7 +12,7 @@ PyPI = "https://pypi.org/project/yaqd-ekspla"
 [config]
 
 [config.serial_name]
-doc = "The name of the device in serial protocol"
+doc = "The name of the device in serial protocol.  Hint: check the controller for naming info."
 type = "string"
 
 [state]
