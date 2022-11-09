@@ -1,6 +1,7 @@
 protocol = "ekspla-nt340"
 doc = ""
 traits = ["uses-uart","uses-serial", "has-position", "is-daemon"]
+hardware = ["ekspla.nt-342"]
 
 [links]
 source = "https://github.com/yaq-project/yaqd-ekspla"
