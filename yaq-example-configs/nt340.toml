@@ -1,0 +1,5 @@
+[OPO1]
+port = 32100
+serial_port = "COM5"
+serial_name = "PG"
+baud_rate = 19200
