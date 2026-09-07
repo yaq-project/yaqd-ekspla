@@ -7,7 +7,6 @@ import time
 
 from yaqd_core import IsDaemon, HasPosition, UsesUart, aserial
 
-
 re_msg = re.compile(r"\[(?P<to>\w+):(?P<info>[\w/.]+)\\(?P<sender>\w+)\]$")
 re_info = re.compile(r"(?P<cmd>[A-Z][0-9])/(?P<action>[SAP?]+)(?P<value>[\d.\d]*)")
 msg = "[{to}:{info}\\{sender}]\n"
